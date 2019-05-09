@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="152dp"
+    android:orientation="vertical"
+    android:background="#212121"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+
+        <TextView
+            android:id="@+id/writer"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="78dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginTop="20dp"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/yc"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#C0C0C0"
+            android:layout_toLeftOf="@+id/bk"
+            android:layout_toStartOf="@+id/bk"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/bk"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#C0C0C0"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="19dp" />
+
+        <RadioButton
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:button="@null"
+            android:drawableTop="@drawable/shape" />
+
+        <TextView
+            android:id="@+id/riqi"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#C0C0C0"
+            android:textSize="17dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#171918"
+        />
+</LinearLayout>
